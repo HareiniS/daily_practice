@@ -5,7 +5,6 @@ public class Main
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int a=sc.nextInt();
-		int count=0;
 		if(a<0){
 		    a=-a;
 		}
@@ -15,5 +14,23 @@ public class Main
 		}
 		 System.out.println(b);
 		 System.out.println(a);
+	}
+}
+
+GETTING THE INTEGER AND PRINTING 2ND DIGIT FROM LEFT
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		if(a<0){
+		    a=-a;
+		}
+		while(a>100){
+		    a=a/10;
+		}
+		int b=a%10;
+		System.out.println(b);
 	}
 }
