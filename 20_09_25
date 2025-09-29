@@ -34,3 +34,33 @@ public class Main
 		System.out.println(b);
 	}
 }
+
+GETTING THE SECOND NUMBER FROM THE RIGHT OF MULTIPLE INTEGER
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		int a=sc.nextInt();
+		if(a<0){
+		   a=-a;
+		}
+		int b=((a/10)%10);
+		System.out.println(b);
+	}
+}
+
+GETTING THE 3rd AND 4th DIGIT FROM RIGHT IN MULTIPLE INTEGER
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		int a=sc.nextInt();
+		if(a<0){
+		   a=-a;
+		}
+		int b=((a/100)%100);
+		System.out.println(b);
+	}
+}
